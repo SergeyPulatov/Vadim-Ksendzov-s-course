@@ -1,0 +1,218 @@
+1. Создать файл “new.json” 
+
+                              > new.json
+
+2. Добавить файл под гит.
+      
+                            git add new.json
+
+3. Закоммитить файл.   
+            
+                  git commit -m "For 2 Homework"
+
+4. Отправить файл на внешний GitHub репозиторий.
+         
+                                 git push
+
+5. Создать файлы new2.json, new2.xml, new2.txt 
+   
+                  > new2.json, new2.xml, new2.txt
+
+6. Добавить файлы под гит.
+                                           
+                                  git add .
+
+7. Закоммитить файлы.      
+
+                     git commit -m "For 2 Homework"
+
+8. Отправить файлы на внешний GitHub репозиторий.
+
+                                 git push
+
+9. Отредактировать содержание файла “new2.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата).
+
+ vim new2.txt : 
+
+1. Пулатов Сергей Андреевич
+2. 24
+3. 1
+4. 100 тысяч мильонов
+
+:wq
+
+10. Отредактировать содержание файла “new2.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.
+
+ vim new2.json
+{
+        "FIO": "Pulatov Sergey Andreevich",
+        "AGE": 24,
+        "PETS": "One cat",
+        "Future salary": "Google"
+}
+
+:wq
+
+11. Добавить и закоммитить “new2.txt” одной строчкой.                 
+
+                  git commit new2.txt "For 2 Homework"
+
+12. Добавить и закоммитить new2.json одной строчкой.               
+
+                 git commit new2.json "For 2 Homework"
+
+13. Отправить изменения на внешний репозиторий.                        
+
+                                        git push
+    
+14. Отредактировать содержание файла “new2.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
+
+vim new2.xml
+
+<?xml version="1.0" encoding="UTF-8" ?>
+<ABOUT_ME>
+  <FIO>Pulatov Sergey Andreevich</FIO>
+  <AGE>24</AGE>
+  <PETS>one cat</PETS>
+  <FUTURE_SALARY>Google</FUTURE_SALARY>
+</ABOUT_ME>
+
+:wq
+
+15. Добавить и закоммитить “new2.xml” одной строчкой.               
+
+                 git commit new2.xml "For 2 Homework"
+
+16. Отправить изменения на внешний репозиторий.                         
+
+                                     git push
+
+17. В веб интерфейсе GitHub создать файл new3.txt.    
+
+                 Add file -> Create new file -> new3.txt.
+
+18. Отредактировать в веб интерфейсе содержание файла “new3.txt” - написать информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить).
+
+500 дней лета
+Лучше звоните Солу
+Салат Цезарь
+Лето
+США
+
+19. Сохранить изменения на веб интерфейсе  
+
+                                 Commit changes 
+
+20. Синхронизировать внешний и локальный репозитории        
+
+                                      get pull 
+
+21. Отредактировать в веб интерфейсе содержание файла “new2.json” - добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить). Всё в формате JSON.
+
+{
+	"FIO": "Pulatov Sergey Andreevich",
+	"AGE": 24,
+	"PETS": "One cat",
+	"Future salary": "Google",
+	"Favorite Film": "500 days of summer",
+	"Favorite serial": "Better call Sаul",
+	"Favorite meal": "Caesar salad",
+	"Favorite mounth": "Summer",
+	"Where i want to go": "USA"
+}
+
+22. Сохранить изменения на веб интерфейсе        
+
+                            Commit changes
+
+23. Синхронизировать внешний и локальный репозитории    
+
+                                  get pull             
+
+24. Отредактировать в веб интерфейсе содержание файла “new2.xml” - добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить). Всё в формате XML.
+
+<?xml version="1.0" encoding="UTF-8" ?>
+<ABOUT_ME>
+  <FIO>Pulatov Sergey Andreevich</FIO>
+  <AGE>24</AGE>
+  <PETS>one cat</PETS>
+  <FUTURE_SALARY>Google</FUTURE_SALARY>
+  <FAVORITE_FILM>500 days of summer</FAVORITE_FILM>
+  <FAVORITE_serial>Better call Sаul</FAVORITE_serial>
+  <FAVORITE_meal>Caesar salad</FAVORITE_meal>
+  <FAVORITE_mounth>Summer</FAVORITE_mounth>
+  <WHERE_I_WANT_TO_GO>USA</WHERE_I_WANT_TO_GO>
+</ABOUT_ME>
+
+25. Сохранить изменения на веб интерфейсе
+
+                                 Commit changes
+
+26. Синхронизировать внешний и локальный репозитории            
+                                    
+                                        get pull
+
+27. На локальном репозитории сделать ветки для:
+
+- Postman                        -          git branch Postman            
+- Jmeter                          -           git branch Jmeter 
+- CheckLists                    -          git branch CheckLists
+- Bag Reports                  -          git branch BagReports  
+- SQL                             -           git branch SQL 
+- Charles                         -          git branch Charles
+- Mobile testing               -           git branch MobileTesting
+
+28. Запушить все ветки на внешний репозиторий 
+                                
+                          git push origin --all
+             
+29. В ветке Bag Reports сделать текстовый документ со структурой баг репорта   
+
+vim  Stucture_of_BugReport
+
+1. ID
+2. Title
+3. Severity
+4. Priority
+5. Environment
+6. Precondition
+7. Steps to reproduce
+8. Actual result
+9. Expected result
+10. Attachments
+
+30. Запушить структуру багрепорта на внешний репозиторий     
+
+                   git push -u origin BagReports
+
+31. Вмержить ветку Bag Reports в Main                                 
+
+           1. git checkout master   2. git merge BagReports
+
+32. Запушить main на внешний репозиторий.          
+
+                                       git push
+
+33. В ветке CheckLists набросать структуру чек листа.   
+
+     vim Structure_of_CheckList.txt
+
+1. Build
+2. Environment
+3. Test date
+4. Tester
+5. Test Type
+6. Checking
+7. Result
+
+34. Запушить структуру на внешний репозиторий                    
+
+                         git push -u origin CheckLists
+
+35. На внешнем репозитории сделать вмержить ветки CheckLists в main     
+
+                                    Pull Request
+
+36. Синхронизировать Внешнюю и Локальную ветки Main git       
+
+                                      git pull
